@@ -1,0 +1,4 @@
+biodata = "Nama :  Nydia Renli \nNIM : 122140007 \nResolusi Saya di Tahun ini : Bertahan sampai Akhir"
+
+with open('Me.txt', 'w') as file:
+    file.write(biodata)
