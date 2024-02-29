@@ -1,0 +1,10 @@
+kelas = {}
+
+banyak_siswa = int(input("Masukkan banyaknya siswa: "))
+
+for _ in range(banyak_siswa):
+    nama = input("Masukkan nama siswa: ")
+    nilai = int(input("Masukkan nilai siswa: "))
+    kelas[nama] = nilai
+
+print("Kamus kelas:", kelas)
